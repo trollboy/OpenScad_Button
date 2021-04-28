@@ -53,3 +53,18 @@ Congrats. You designed a virtual button.  That doesn't really help you put on yo
 This will bring up the 3D Print menu.  If you've already ordered a 3D printer and are waiting for it in the mail like a mad man (know dem feels), or simply don't have one at all.. **NEVER FEAR!**  Select [Print-A-Thing](https://printathing.com/ "Print-A-Thing") and they will print your design for you and mail it to you.  If you have a 3d Printer (I'm a fan of the [Creality Ender 3](https://www.creality.com/goods-detail/ender-3-v2-3d-printer "Creality Ender 3"), and [@sexycyborg](https://github.com/sexycyborg "@sexycyborg") 's [3DPrintMill](https://www.creality.com/goods-detail/creality-3dprintmill-3d-printer "3DPrintMill"), which is also made by Creality) then you can use the [OctoPrint](https://octoprint.org/ "OctoPrint") button to pipe your design into OctoPrint for local printing.  
 
 [![Step 6b, I'm not just an actor, I'm also a modal](https://github.com/trollboy/OpenScad_Button/blob/main/step_6b.png?raw=true "Step 6b, I'm not just an actor, I'm also a modal")](https://github.com/trollboy/OpenScad_Button/blob/main/step_6b.png?raw=true "Step 6b, I'm not just an actor, I'm also a modal")
+
+
+## Extra Credit 1: Modules
+
+So earlier I talked about another way to group items.  As promised I'm telling you about it now.  The secret is a [`module`](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/User-Defined_Functions_and_Modules#Modules "module").  A [module](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/User-Defined_Functions_and_Modules#Modules "module") allows you to turn your collection of shapes into your own custom OpenSCAD function.  This is why I mentioned above that the Cheatsheet covers all the _built in_ functions.  There's a limitless number of functions/ [modules](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/User-Defined_Functions_and_Modules#Modules "module") you can make yourself, or download off the internet.  Are you into Robotics? OpenScad links to an awesome [MCAD library](https://github.com/openscad/MCAD "MCAD library") containing [modules](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/User-Defined_Functions_and_Modules#Modules "modules") of bearings, gears, screws, servo motors, and the list goes on and on.  
+[Extra Credit 1 Code](https://github.com/trollboy/OpenScad_Button/blob/main/extra_credit_1.scad "Extra Credit 1 Code").
+
+
+## Extra Credit 2: Now with Style!
+Our button is pretty generic.  I'll admit it.  I mean I wouldn't wear it. As a friend told me; something something Drip is for life.  So let's put a lil style on that button.  How about a nice ridge around the outside?  Well.. let's put on our CAD brains again.. a ridge is simply the middle carved away from a thing.  SO.. I went ahead and turned the whole button into a module like we learned in the previous step, and then I used [difference](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/CSG_Modelling#difference "difference") to remove the smaller [cylinder](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Primitive_Solids#cylinder "cylinder") I made after using [translate](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Transformations#translate "translate") to move it up as to only overlap the top bit.
+[Extra Credit 2  Code](https://github.com/trollboy/OpenScad_Button/blob/main/extra_credit_2.scad "Extra Credit 2 Code").
+
+
+
+
