@@ -67,6 +67,6 @@ Our button is pretty generic.  I'll admit it.  I mean I wouldn't wear it. As a f
 [Extra Credit 2  Code](https://github.com/trollboy/OpenScad_Button/blob/main/extra_credit_2.scad "Extra Credit 2 Code").
 [![Extra Credit 2, Now with 30% less suckl](https://github.com/trollboy/OpenScad_Button/blob/main/Extra_credit_2.png?raw=true "Extra Credit 2, Now with 30% less suck")](https://github.com/trollboy/OpenScad_Button/blob/main/Extra_credit_2.png?raw=true "Extra Credit 2, Now with 30% less suck")
 
-
-
+## Extra Credit 3: Talk smack!
+So I realize I zoomed through this howto.  This is the problem people who know a thing have when explaining the thing to people unfamiliar with the thing.  You make a bunch of assumptions on what should be obvious, and skip over huge swaths.  I sorta suck that way.  At the top of this page, there's an issues link, alternatively you can click [here](https://github.com/trollboy/OpenScad_Button/issues/new/choose "new issue link").  If there's something you don't understand, lemme know and I'll make adjustments.  Feeling spicy? Feel free to check out this repo, make your own changes and submit a pull request!  *I AM HERE FOR IT!*
 
